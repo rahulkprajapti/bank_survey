@@ -31,5 +31,11 @@
     } 
   });
 
+  router.get('/submitForm',  function (req, res) {
+    res.json({
+      message:"Api is runiing on port no : 3000"
+    });
+  })
+
  // export all routes
 module.exports = router;
